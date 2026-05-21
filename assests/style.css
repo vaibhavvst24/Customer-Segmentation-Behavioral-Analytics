@@ -1,0 +1,178 @@
+/* =========================
+   MAIN APP STYLING
+========================= */
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+}
+
+
+/* =========================
+   H1 STYLING
+========================= */
+
+h1 {
+    text-align: center;
+    font-size: 42px !important;
+    font-weight: 700 !important;
+    color: #FAFA33 !important;
+    margin-bottom: 20px !important;
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   H2 STYLING
+========================= */
+
+h2 {
+    text-align: center;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    color: #FAFA33 !important;
+    margin-top: 25px !important;
+    margin-bottom: 15px !important;
+}
+
+
+/* =========================
+   H3 STYLING
+========================= */
+
+h3 {
+    text-align: center;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    color: #CAD5E2 !important;
+    padding: 8px;
+    border-radius: 10px;
+    background: #3F3F46;
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+    transition: all 0.3s ease;
+    border-color: #FAFA33;
+}
+
+
+/* Hover Effect */
+
+h3:hover {
+    transform: scale(1.02);
+    background: #0F172B;
+    color: #FAFA33 !important;
+    border-color: #FAFA33;
+}
+
+
+/* =========================
+   DATAFRAME STYLING
+========================= */
+
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(128,128,128,0.2);
+    padding: 5px;
+}
+
+
+/* =========================
+   BUTTON STYLING
+========================= */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg, #FE9A37, #FFF085);
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+
+/* Button Hover */
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 18px rgba(79, 70, 229, 0.3);
+}
+
+
+/* =========================
+   METRIC CARD STYLING
+========================= */
+
+[data-testid="metric-container"] {
+    background: white;
+    border-radius: 14px;
+    padding: 15px;
+    border: 1px solid rgba(128,128,128,0.15);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+[data-testid="metric-container"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 22px rgba(0,0,0,0.08);
+}
+
+
+/* ---------------------------------------------------
+FOOTER
+--------------------------------------------------- */
+.footer {
+
+    text-align: center;
+    margin-top: 1px;
+    padding-top: 20px;
+    color: #CAD5E2;
+    font-size: 20px;
+}
+
+/* ---------------------------------------------------
+HIGHLIGHT TEXT
+--------------------------------------------------- */
+.highlight {
+
+    color: #CAD5E2 !important;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px rgba(144,161,185,0.3);
+}
+
+
+/* =========================
+   STREAMLIT DEFAULT MENU
+========================= */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+section[data-testid="stSidebar"] {
+    background-color: #242424;
+}
+
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #A5B4FC;
+    border-radius: 10px;
+}
